@@ -1,4 +1,4 @@
-libs = ['/home/point/point/lib']
+libs = ['/home/point/core/lib']
 
 # redis
 cache_socket = 'tcp://127.0.0.1:16380'
@@ -21,10 +21,10 @@ domain = 'point.im'
 lang = 'en'
 timezone = 'Europe/Moscow'
 
-media_path = '/home/point/point/www/static/img/m'
+media_path = '/home/point/img/m'
 media_root = '://i.point.im/m'
 
-thumbnail_path = '/home/point/point/www/static/img/t'
+thumbnail_path = '/home/point/img/t'
 thumbnail_root = '://i.point.im/t'
 thumbnail_size = [400, 300]
 
