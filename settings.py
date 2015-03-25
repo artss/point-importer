@@ -1,7 +1,7 @@
 libs = ['/home/point/core/lib']
 
 # redis
-cache_socket = 'tcp://127.0.0.1:16380'
+cache_socket = 'unix:///var/run/redis/cache.sock'
 storage_socket = 'unix:///var/run/redis/storage.sock'
 
 db = {
@@ -9,7 +9,7 @@ db = {
     'port': 5432,
     'database': 'point',
     'user': 'point',
-    'password': '',
+    'password': 'point',
     'maxsize': 10
 }
 
